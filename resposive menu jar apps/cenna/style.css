@@ -90,6 +90,7 @@ h1
 h2
 {
   font-family: 'Rajdhani semibold', sans-serif;
+
 }
 p
 {
@@ -124,13 +125,13 @@ p
 	border-bottom: 0.1em solid #fe7f00;
 }
 
-.szary2
+/*.szary2
 {
 	color:#676767;
 	font-size: 1em;
 	text-align: center;
 }
-
+*/
 
 	/*reszta*/	
 
@@ -138,8 +139,6 @@ p
   display: grid;
   grid-template-columns: 1fr 25% 1fr 25% 1fr 25% 1fr;
   grid-template-rows: 20% 20% 20% 20% 20%;
-  background-color: #2196F3;
-  border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 .klocek
@@ -157,14 +156,133 @@ margin-top: 10%;
   grid-gap: 10px;
 /*  background-color: #fe7f00;*/
   padding: 10px;
-  grid-template-rows: 5em 5em 20em 5em 20em 5em 20em 5em 20em 20em;
+  grid-template-rows: 5em 5em 20em; 5em 20em 5em 20em 5em 20em 20em;
 /*  opacity: 0.5;*/
 }
+
 .grid-container>div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding:20px 0;
   font-size: 30px;
+}
+
+.grid-container-strony {
+	display: none;
+}
+
+
+.grid-container-strony-active {
+  
+/*margin-top: -10%;*/
+  display: grid;
+  grid-template-columns: 1fr 25% 1fr 25% 1fr 25% 1fr;
+  grid-template-rows: 50% 50%;
+  grid-gap: 10px;
+/*  background-color: #fe7f00;*/
+  padding: 10px;
+  grid-template-rows: 5em 20em;
+/*  opacity: 0.5;*/
+}
+.stronah1
+{
+	color:#676767;
+	font-size: 3em;
+	margin-top: -0.3em;
+	text-align: center;
+}
+
+.Stronajaka h1.stronah1::before{
+	content:'';
+	width: 1.2em;
+	height: 1.1em;
+	background-color: #676767;
+	display: inline-block;
+	background: transparent url('icon/resp.svgz');
+	background-size: 1.15em 1.3em;
+	margin-right: 0.3em;
+}
+
+.jakaplat h1.stronah1::before,
+.item24 h1.stronah1::before{
+	content:'';
+	width: 1.2em;
+	height: 1.1em;
+	background-color: #676767;
+	display: inline-block;
+	background: transparent url('icon/telkod.svgz');
+	background-size: 1.15em 1.3em;
+	margin-right: -0.1em;
+	margin-bottom: -0.13em;
+}
+
+.webprint h1.stronah1::before{
+	content:'';
+	width: 1.2em;
+	height: 1.1em;
+	background-color: #676767;
+	display: inline-block;
+	background: transparent url('icon/graf.svgz');
+	background-size: 1.15em 1.3em;
+	margin-right: 0.3em;
+		margin-bottom: -0.13em;
+}
+
+.item55 h1.stronah1::before{
+	content:'';
+	width: 1.2em;
+	height: 1.1em;
+	background-color: #676767;
+	display: inline-block;
+	background: transparent url('icon/internet.svgz');
+	background-size: 1.15em 1.3em;
+	margin-right: 0.3em;
+		margin-bottom: -0.13em;
+}
+
+.item45 h1.stronah1::before{
+	content:'';
+	width: 1.2em;
+	height: 1.1em;
+	background-color: #676767;
+	display: inline-block;
+	background: transparent url('icon/druk.svgz');
+	background-size: 1.15em 1.3em;
+	margin-right: 0.3em;
+		margin-bottom: -0.13em;
+}
+
+.grid-container-aplikacje {
+	display: none;
+}
+
+.grid-container-aplikacje-active {
+  
+/*margin-top: 10%;*/
+  display: grid;
+  grid-template-columns: 6.25% 12.5% 1fr 12.5% 1fr 12.5% 1fr 12.5% 1fr 12.5% 1fr 12.5% 6.25%
+  grid-gap: 10px;
+/*  background-color: #fe7f00;*/
+  padding: 10px;
+  grid-template-rows: 5em 20em 5em 15em 15em;
+  margin-bottom: 10%;
+/*  opacity: 0.5;*/
+}
+
+.grid-container-graf {
+	display: none;
+}
+
+.grid-container-graf-active {
+
+  /*margin-top: 10%;*/
+  display: grid;
+  grid-template-columns: 1fr 25% 1fr 25% 1fr 25% 1fr;
+  grid-gap: 10px;
+/*  background-color: #fe7f00;*/
+  padding: 10px;
+  grid-template-rows: 5em 20em 5em 20em 20em 5em 20em;
+/*  opacity: 0.5;*/
 }
 
 .otwarcie {
@@ -177,11 +295,19 @@ margin-top: 10%;
   grid-column-end: 8;
 }
 
-.opis
+.opis1
 {
 	color:#676767;
 	font-size: 1em;
 	text-align: center;
+}
+
+.opis2
+{
+	color:#676767;
+	font-size: 2em;
+	text-align: center;
+	margin: -10%;
 }
 
 .item3
@@ -201,266 +327,329 @@ margin-top: 10%;
 
 .Stronajaka
 {
-	display: none;
-}
-
-.Stronajakactive
-{
 	grid-column-start: 1;
   	grid-column-end: 8;
-	display: grid;
-}
-
-.item9
-{
-	display: none;
-}
-
-.item9active
-{
 	display: grid;
 }
 
 .stronwiz
 {
-	display: none;
-}
-
-.stronwizactive
-{
 	display: grid;
 	cursor: pointer;
 	justify-items:center;
-}
-
-.item11
-{
-	display: none;
-}
-
-.item11active
-{
-	display: grid;
 }
 
 .item12
 {
-	display: none;
-}
-
-.item12active
-{
 	display: grid;
 	cursor: pointer;
 	justify-items:center;
 }
-
-.item13
-{
-	display: none;
-}
-
-.item13active
-{
-	display: grid;
-}
-
 .item14
 {
-	display: none;
-}
-
-.item14active
-{
 	display: grid;
 	cursor: pointer;
 	justify-items:center;
 }
-
-.item15
-{
-	display: none;
-}
-
-.item15active
-{
-	display: grid;
-}
-
 .jakaplat
 {
-	display: none;
-}
-
-.jakaplatactive
-{
 	grid-column-start: 1;
-  	grid-column-end: 8;
+  	grid-column-end: 14;
 	display: grid;
 }
-
-.item17
-{
-	display: none;
-}
-
-.item17active
-{
-	display: grid;
-}
-
 .item18
 {
-	display: none;
-}
-
-.item18active
-{
 	display: grid;
 	cursor: pointer;
 	justify-items:center;
+	grid-column-start: 2;
+ 	grid-column-end: 5;
 }
-
-.item19
-{
-	display: none;
-}
-
-.item19active
-{
-	display: grid;
-}
-
 .item20
 {
-	display: none;
-}
-
-.item20active
-{
 	display: grid;
 	cursor: pointer;
 	justify-items:center;
+	grid-column-start: 6;
+ 	grid-column-end: 9;
 }
-
-.item21
-{
-	display: none;
-}
-
-.item21active
-{
-	display: grid;
-}
-
 .item22
 {
-	display: none;
-}
-
-.item22active
-{
 	display: grid;
 	cursor: pointer;
 	justify-items:center;
-}
-
-.item23
-{
-	display: none;
-}
-
-.item23active
-{
-	display: grid;
+	grid-column-start: 10;
+ 	grid-column-end: 13;
 }
 .item24
 {
-	display: none;
+	grid-column-start: 1;
+  	grid-column-end: 14;
+	display: grid;
+}
+.item26
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+	grid-column-start: 2;
+ 	grid-column-end: 5;
+}
+.item28
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+	grid-column-start: 6;
+ 	grid-column-end: 9;
+}
+.item30
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+	grid-column-start: 10;
+ 	grid-column-end: 13;
 }
 
-.item24active
+.item34
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+	grid-column-start: 3;
+ 	grid-column-end: 7;
+}
+
+.item36
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+	grid-column-start: 8;
+ 	grid-column-end: 11;
+}
+
+.webprint
 {
 	grid-column-start: 1;
   	grid-column-end: 8;
 	display: grid;
 }
 
-.item25
-{
-	display: none;
-}
-
-.item25active
-{
-	display: grid;
-}
-
-.item26
-{
-	display: none;
-}
-
-.item26active
+.item39
 {
 	display: grid;
 	cursor: pointer;
 	justify-items:center;
 }
 
-.item27
-{
-	display: none;
-}
-
-.item27active
-{
-	display: grid;
-}
-
-.item28
-{
-	display: none;
-}
-
-.item28active
+.item41
 {
 	display: grid;
 	cursor: pointer;
 	justify-items:center;
 }
 
-.item29
-{
-	display: none;
-}
-
-.item29active
-{
-	display: grid;
-}
-
-.item30
-{
-	display: none;
-}
-
-.item30active
+.item43
 {
 	display: grid;
 	cursor: pointer;
 	justify-items:center;
 }
 
-.item31
+.item45
 {
 	display: none;
 }
 
-.item31active
+.item45-active
+{
+	grid-column-start: 1;
+  	grid-column-end: 8;
+	display: grid;
+	justify-items:center;
+}
+
+.item46
+{
+	display: none;
+}
+
+.item46-active
 {
 	display: grid;
 }
+
+.item47
+{
+	display: none;
+}
+
+.item47-active
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+}
+
+.item48
+{
+	display: none;
+}
+
+.item48-active
+{
+	display: grid;
+}
+
+.item49
+{
+	display: none;
+}
+
+.item49-active
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+}
+
+.item50
+{
+	display: none;
+}
+
+.item50-active
+{
+	display: grid;
+}
+
+.item51
+{
+	display: none;
+}
+
+.item51-active
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+}
+
+.item52
+{
+	display: none;
+}
+
+.item52-active
+{
+	display: grid;
+}
+
+.item53
+{
+	display: none;
+}
+
+.item53-active
+{
+	grid-column-start: 4;
+  	grid-column-end: 5;
+	display: grid;
+	justify-items:center;
+	cursor: pointer;
+}
+
+.item54
+{
+	display: none;
+}
+
+.item54-active
+{
+	display: grid;
+}
+
+.item55
+{
+	display: none;
+}
+
+.item55-active
+{
+	grid-column-start: 1;
+  	grid-column-end: 8;
+	display: grid;
+	justify-items:center;
+}
+
+.item56
+{
+	display: none;
+}
+
+.item56-active
+{
+	display: grid;
+}
+
+.item57
+{
+	display: none;
+}
+
+.item57-active
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+}
+
+.item58
+{
+	display: none;
+}
+
+.item58-active
+{
+	display: grid;
+}
+
+.item59
+{
+	display: none;
+}
+
+.item59-active
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+}
+
+.item60
+{
+	display: none;
+}
+
+.item60-active
+{
+	display: grid;
+}
+
+.item61
+{
+	display: none;
+}
+
+.item61-active
+{
+	display: grid;
+	cursor: pointer;
+	justify-items:center;
+}
+
 /*.grid-container {
   display: grid;
   grid-column-gap: 50px;
