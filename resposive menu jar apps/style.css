@@ -45,6 +45,7 @@ header nav ul
 header nav ul li
 {
 	list-style: none;
+
 }
 header nav ul li a
 {
@@ -67,7 +68,8 @@ header nav ul li a.active div
 	background: #333;*/
 	height: 1.8em;
 	border-bottom: 0.14em solid #fe7f00;
-	padding: 1 20px
+	padding: 1 20px;
+
 }
 .menu-toggle
 {
