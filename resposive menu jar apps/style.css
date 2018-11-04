@@ -7,16 +7,20 @@ body
 header
 {
 	position: sticky;
+	background-color: white; /*!important;*/
 	top: 0;
 	left: 0;
 	padding: 0 50px;
 	width: 100%;
+/*	height: auto;*/
 	box-sizing: border-box;
-
+	z-index: 10;
 }
 .nawigacja
 {
-	background: green;
+/*	background-color: green;*/ /*!important;*/
+	z-index: 11;
+	height: 4em;
 }
 
 header .logo
@@ -33,7 +37,7 @@ header .logo
 header nav
 {
 	float: right;
-		background: white;
+	background: white;
 }
 header nav ul
 {
