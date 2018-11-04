@@ -9,11 +9,11 @@ $(document).ready(function(){
 $(document).ready(function () {
 		$(document).on("scroll", onScroll);
  
-		$('a').on('click', function (e) {
+		$('nav a').on('click', function (e) {
 			e.preventDefault();
 			$(document).off("scroll");
  
-			$('a').each(function () {
+			$('nav a').each(function () {
 				$(this).removeClass('active');
 			})
 			$(this).addClass('active');
