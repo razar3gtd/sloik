@@ -156,7 +156,7 @@ div.bobo h1
 	}
 div.page-section
 {
-	margin-top: 30%;
+	margin-top: 20%;
 /*	display: flex; */
 /*	margin-bottom: : 10%;*/
 }
@@ -209,6 +209,20 @@ a.button {
 	width: 300px;
 /*	background-color: blue;*/
 }
+
+.flex-container-About
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.kloc
+{
+	height: 20%;
+	width: 50%;
+	background-color: blue;
+}
+
 }
 
 @media (max-width: 1180px)
@@ -260,6 +274,26 @@ a.button {
 /*	background-color: blue;*/
 
 }
+
+ br.enter 
+ {
+    height: 70px;
+ }
+
+.flex-container-About
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.kloc
+{
+	height: 20%;
+	width: 50%;
+	background-color: blue;
+		display: flex;
+}
+
 }
 
 @media (max-width: 1070px)
@@ -300,7 +334,10 @@ a.button {
 	margin-bottom: 1em;
 	justify-content: center;
 }
-
+ br.enter 
+ {
+    line-height: 100px;
+ }
 
 }
 @media (max-width: 955px) 
@@ -325,10 +362,10 @@ a.button {
 	{
 		padding: 0 20px;
 	}
-	header img.logo
+	header div.logo a img
 	{
 
-	height: 30px;
+	height: 60px;
 	width: auto;
 	line-height: 10%;
 	}
@@ -462,9 +499,9 @@ a.button {
 	width: auto;
 }
 
-div.page-section 1
+div#jeden
 {
-	margin-top: 60%;
+	margin-top: 50%;
 /*	display: flex; */
 /*	margin-bottom: : 10%;*/
 }
