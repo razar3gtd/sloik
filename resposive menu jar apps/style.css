@@ -135,7 +135,7 @@ div.bobo h1
 	width: 10em;
 	height: 1em;
 	color: #fe7f00;
-/*	background-color: #eee;*/
+
 	text-align: left;
 	display:table-cell;
     vertical-align:middle;
@@ -230,6 +230,22 @@ div.flex-container
 }
 
 
+
+button  {
+    background-color: #fe7f00;
+    border-radius: 0.5em;
+    color: white;
+/*    padding: 1em 3em;*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.75em 1.8em;
+    font-family: 'Rajdhani semibold', sans-serif;
+    margin-left: 0;
+    border: none;
+   	}
+
+
 @media (min-width: 1180px)
 {
 	div.batton
@@ -259,7 +275,148 @@ a.button {
 	padding-left: 1.5em;
 	width: 300px;
 /*	background-color: blue;*/
+
+
 }
+
+
+
+#contact
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+#contact form {
+    padding-top: 20px;
+    padding-bottom: 90px;
+    width: 100%
+
+}
+
+#contact form div {
+    position: relative
+}
+
+#contact form label {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    pointer-events: none;
+    transition: .2s;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 100;
+}
+
+#contact form input,#contact form label,#contact form select,#contact form textarea {
+    font-size: 1.9em;
+    font-weight: 100;
+    color: #5d616294;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#contact form input,#contact form select,#contact form textarea {
+    display: block;
+    border: none;
+    border-bottom: 3px solid #fe7f00;
+    border-radius: 0;
+    padding: 5px 0 10px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin-bottom: 1.7em;
+    outline: 0
+}
+
+/*@media (max-width: 768px) {
+    #contact form input,#contact form select,#contact form textarea {
+        margin-top:1em
+    }
+}*/
+
+#contact form input,#contact form select {
+    transition-property: background-color;
+    transition-duration: .3s
+}
+
+#contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
+    border-bottom-color: #5d616294
+}
+
+#contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
+    top: -20px;
+    left: 0;
+    color: #fe7f00;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Rajdhani semibold', sans-serif;
+}
+
+#contact error {
+    display: block;
+    visibility: hidden;
+    margin-top: -1.1em;
+    color: #e12026;
+    text-align: right;
+    width: 100%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s;
+    font-family: 'Rajdhani semibold', sans-serif;
+}
+
+#contact form input.error,#contact form select.error,#contact form textarea.error {
+    border-bottom-color: #fe7f00;
+}
+
+#contact error.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+#contact success {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s;
+    color: #6dbf50;
+    text-align: center;
+    position: relative;
+    top: -6px
+}
+
+#contact success.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -332,6 +489,126 @@ a.button {
 		display: flex;
 }
 
+
+
+#contact
+{
+	margin-left: 50px;
+	margin-right: 50px; 
+}
+
+
+#contact form {
+    padding-top: 20px;
+    padding-bottom: 90px;
+    width: 100%
+
+}
+
+#contact form div {
+    position: relative
+}
+
+#contact form label {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    pointer-events: none;
+    transition: .2s
+}
+
+#contact form input,#contact form label,#contact form select,#contact form textarea {
+    font-size: 1.9em;
+    font-weight: 300;
+    color: #5d6162;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#contact form input,#contact form select,#contact form textarea {
+    display: block;
+    border: none;
+    border-bottom: 3px solid #fe7f00;
+    border-radius: 0;
+    padding: 5px 0 10px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin-bottom: 1.7em;
+    outline: 0
+}
+
+/*@media (max-width: 768px) {
+    #contact form input,#contact form select,#contact form textarea {
+        margin-top:1em
+    }
+}*/
+
+#contact form input,#contact form select {
+    transition-property: background-color;
+    transition-duration: .3s
+}
+
+#contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
+    border-bottom-color: #5d616294
+}
+
+#contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
+    top: -20px;
+    left: 0;
+    color: #fe7f00;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: ''Rajdhani semibold'', sans-serif;
+}
+
+#contact error {
+    display: block;
+    visibility: hidden;
+    margin-top: -1.1em;
+    color: #e12026;
+    text-align: right;
+    width: 100%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s
+}
+
+#contact form input.error,#contact form select.error,#contact form textarea.error {
+    border-bottom-color: #e12026
+}
+
+#contact error.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+#contact success {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s;
+    color: #6dbf50;
+    text-align: center;
+    position: relative;
+    top: -6px
+}
+
+#contact success.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+
+
 }
 
 @media (max-width: 1070px)
@@ -377,6 +654,133 @@ a.button {
     line-height: 100px;
  }
 
+#contact
+{
+	margin-left: 50px;
+	margin-right: 50px; 
+}
+
+
+#contact form {
+    padding-top: 20px;
+    padding-bottom: 90px;
+    width: 100%
+
+}
+
+#contact form div {
+    position: relative
+}
+
+#contact form label {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    pointer-events: none;
+    transition: .2s
+}
+
+#contact form input,#contact form label,#contact form select,#contact form textarea {
+    font-size: 1.9em;
+    font-weight: 300;
+    color: #5d6162
+}
+
+#contact form input,#contact form select,#contact form textarea {
+    display: block;
+    border: none;
+    border-bottom: 3px solid #fe7f00;
+    border-radius: 0;
+    padding: 5px 0 10px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin-bottom: 1.7em;
+    outline: 0
+}
+
+/*@media (max-width: 768px) {
+    #contact form input,#contact form select,#contact form textarea {
+        margin-top:1em
+    }
+}*/
+
+#contact form input,#contact form select {
+    transition-property: background-color;
+    transition-duration: .3s
+}
+
+#contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
+    border-bottom-color: #5d616294
+}
+
+#contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
+    top: -20px;
+    left: 0;
+    color: #fe7f00;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Rajdhani semibold', sans-serif;
+}
+
+#contact error {
+    display: block;
+    visibility: hidden;
+    margin-top: -1.1em;
+    color: #e12026;
+    text-align: right;
+    width: 100%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s
+    font-weight: 600
+}
+
+#contact form input.error,#contact form select.error,#contact form textarea.error {
+    border-bottom-color: #e12026
+}
+
+#contact error.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+#contact success {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s;
+    color: #6dbf50;
+    text-align: center;
+    position: relative;
+    top: -6px
+}
+
+#contact success.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media (max-width: 955px) 
 {
@@ -412,6 +816,9 @@ a.button {
 	width: 32%;
 	margin: 0.1rem;
 }
+
+
+
 }
 
 @media (max-width: 750px) /*750*//*991*/
@@ -547,12 +954,7 @@ a.button {
 	}
 	div.batton
 	{
-	display: none;
-/*    margin: 4px 2px;*/
-    cursor: pointer;
-    justify-content: center;
-    margin-top: 5%;
-    z-index: 1;
+
 
 	}
 	a.button {
@@ -616,6 +1018,108 @@ div#jeden
 	margin-left: 2em;
 }
 
+
+#contact
+{
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+
+
+
+
+#contact form input,#contact form label,#contact form select,#contact form textarea {
+    font-size: 1.9em;
+    font-weight: 300;
+    color: #5d6162
+}
+
+#contact form input,#contact form select,#contact form textarea {
+    display: block;
+    border: none;
+    border-bottom: 3px solid #fe7f00;
+    border-radius: 0;
+    padding: 5px 0 10px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin-bottom: 1.7em;
+    outline: 0
+}
+
+
+#contact form input,#contact form select {
+    transition-property: background-color;
+    transition-duration: .3s
+}
+
+#contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
+    border-bottom-color: #5d616294
+}
+
+#contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
+    top: -20px;
+    left: 0;
+    color: #fe7f00;
+    font-size: 1em;
+    font-weight: 400
+}
+
+#contact error {
+    display: block;
+    visibility: hidden;
+    margin-top: -1.1em;
+    color: #e12026;
+    text-align: right;
+    width: 100%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s
+}
+
+#contact form input.error,#contact form select.error,#contact form textarea.error {
+    border-bottom-color: #e12026
+}
+
+#contact error.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+#contact success {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s;
+    color: #6dbf50;
+    text-align: center;
+    position: relative;
+    top: -6px
+}
+
+#contact success.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 @media (max-width: 450px)
 {
 	div.batton2
@@ -671,6 +1175,105 @@ div#jeden
 	width: 100%;
 	margin: 0.1rem;
 }
+
+
+
+#contact form input,#contact form label,#contact form select,#contact form textarea {
+    font-size: 1.9em;
+    font-weight: 300;
+    color: #5d6162;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#contact form input,#contact form select,#contact form textarea {
+    display: block;
+    border: none;
+    border-bottom: 3px solid #fe7f00;
+    border-radius: 0;
+    padding: 5px 0 10px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin-bottom: 1.7em;
+    outline: 0
+}
+
+
+#contact form input,#contact form select {
+    transition-property: background-color;
+    transition-duration: .3s
+}
+
+#contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
+    border-bottom-color: #5d616294
+}
+
+#contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
+    top: -20px;
+    left: 0;
+    color: #fe7f00;
+    font-size: 1em;
+    font-weight: 400
+}
+
+#contact error {
+    display: block;
+    visibility: hidden;
+    margin-top: -1.1em;
+    color: #e12026;
+    text-align: right;
+    width: 100%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s
+}
+
+#contact form input.error,#contact form select.error,#contact form textarea.error {
+    border-bottom-color: #e12026
+}
+
+#contact error.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+#contact success {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .3s;
+    color: #6dbf50;
+    text-align: center;
+    position: relative;
+    top: -6px
+}
+
+#contact success.shown {
+    visibility: visible;
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
