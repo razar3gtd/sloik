@@ -61,7 +61,7 @@ header nav ul li a
 	padding-top: 0.5em;
 	display:block;
 	color: #000;
-	font-family: 'Rajdhani semibold', sans-serif;
+	font-family:'Rajdhani semibold', sans-serif;
 	font-size: 1.3em;
 	color: #676767;
 }
@@ -157,6 +157,7 @@ div.page-section
 	color:#676767;
 	font-size: 3em;
 	text-align: center;
+	font-family: 'Rajdhani semibold', sans-serif;
 
 }
 
@@ -310,7 +311,7 @@ a.button {
 }
 
 #contact form input,#contact form label,#contact form select,#contact form textarea {
-    font-size: 1.9em;
+    font-size: 2.5em;
     font-weight: 100;
     color: #5d616294;
     font-family: 'Rajdhani', sans-serif;
@@ -326,7 +327,7 @@ a.button {
     -moz-appearance: none;
     appearance: none;
     width: 100%;
-    margin-bottom: 1.7em;
+    margin-bottom: 1.3em;
     outline: 0
 }
 
@@ -342,7 +343,7 @@ a.button {
 }
 
 #contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
-    border-bottom-color: #5d616294
+    border-bottom-color: #5d616294;
 }
 
 #contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
@@ -518,9 +519,9 @@ a.button {
 }
 
 #contact form input,#contact form label,#contact form select,#contact form textarea {
-    font-size: 1.9em;
+    font-size: 2.5em;
     font-weight: 300;
-    color: #5d6162;
+    color: #5d616294;
     font-family: 'Rajdhani', sans-serif;
 }
 
@@ -534,7 +535,7 @@ a.button {
     -moz-appearance: none;
     appearance: none;
     width: 100%;
-    margin-bottom: 1.7em;
+    margin-bottom: 1.3em;
     outline: 0
 }
 
@@ -550,7 +551,7 @@ a.button {
 }
 
 #contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
-    border-bottom-color: #5d616294
+    border-bottom-color: #5d616294;
 }
 
 #contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
@@ -681,9 +682,9 @@ a.button {
 }
 
 #contact form input,#contact form label,#contact form select,#contact form textarea {
-    font-size: 1.9em;
+    font-size: 2.5em;
     font-weight: 300;
-    color: #5d6162
+    color: #5d616294;
 }
 
 #contact form input,#contact form select,#contact form textarea {
@@ -696,7 +697,7 @@ a.button {
     -moz-appearance: none;
     appearance: none;
     width: 100%;
-    margin-bottom: 1.7em;
+    margin-bottom: 1.3em;
     outline: 0
 }
 
@@ -712,7 +713,7 @@ a.button {
 }
 
 #contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
-    border-bottom-color: #5d616294
+    border-bottom-color: #5d616294;
 }
 
 #contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
@@ -1029,9 +1030,9 @@ div#jeden
 
 
 #contact form input,#contact form label,#contact form select,#contact form textarea {
-    font-size: 1.9em;
+    font-size: 2.5em;
     font-weight: 300;
-    color: #5d6162
+    color: #5d616294;
 }
 
 #contact form input,#contact form select,#contact form textarea {
@@ -1044,7 +1045,7 @@ div#jeden
     -moz-appearance: none;
     appearance: none;
     width: 100%;
-    margin-bottom: 1.7em;
+    margin-bottom: 1.3em;
     outline: 0
 }
 
@@ -1055,7 +1056,7 @@ div#jeden
 }
 
 #contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
-    border-bottom-color: #5d616294
+    border-bottom-color: #5d616294;
 }
 
 #contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
@@ -1179,9 +1180,9 @@ div#jeden
 
 
 #contact form input,#contact form label,#contact form select,#contact form textarea {
-    font-size: 1.9em;
+    font-size: 2.5em;
     font-weight: 300;
-    color: #5d6162;
+    color: #5d616294;
     font-family: 'Rajdhani', sans-serif;
 }
 
@@ -1195,7 +1196,7 @@ div#jeden
     -moz-appearance: none;
     appearance: none;
     width: 100%;
-    margin-bottom: 1.7em;
+    margin-bottom: 1.3em;
     outline: 0
 }
 
@@ -1206,7 +1207,7 @@ div#jeden
 }
 
 #contact form input:focus,#contact form input:valid,#contact form input[type=email]:not([value=""]),#contact form textarea:focus,#contact form textarea:valid {
-    border-bottom-color: #5d616294
+    border-bottom-color: #5d616294;
 }
 
 #contact form input:focus~label,#contact form input:valid~label,#contact form input[type=email]:not([value=""])~label,#contact form textarea:focus~label,#contact form textarea:valid~label {
