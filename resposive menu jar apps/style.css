@@ -61,9 +61,10 @@ header nav ul li a
 	padding-top: 0.5em;
 	display:block;
 	color: #000;
-	font-family:'Rajdhani semibold', sans-serif;
+	font-family:'Rajdhani', sans-serif;
 	font-size: 1.3em;
 	color: #676767;
+	font-weight: 600;
 }
 header nav ul li a:hover,
 header nav ul li a.active
@@ -126,7 +127,8 @@ span.bobo2
 
 h1, h2, p
 {
-  font-family: 'Rajdhani semibold', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
 }
 
 
@@ -157,7 +159,8 @@ div.page-section
 	color:#676767;
 	font-size: 3em;
 	text-align: center;
-	font-family: 'Rajdhani semibold', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 600;
 
 }
 
@@ -241,18 +244,58 @@ button  {
     text-decoration: none;
     font-size: 1.2em;
     padding: 0.75em 1.8em;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
     margin-left: 0;
     border: none;
    	}
 
 
+@media (min-width: 1450px)
+{
+	div.bobo h1
+	{
+		font-size: 6em;
+		line-height: 1.15em;
+	}
+
+}
+
+
+/*@media (min-width: 1350px)
+{
+	div.bobo h1
+	{
+		font-size: 5em;
+		line-height: 1.1em;
+	}
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1180px)
 {
+
+	div.bobo h1
+	{
+		line-height: 1.15em;
+	}
+
+
 	div.batton
 	{
     margin-top: 2.4em;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
 }
 
 a.button {
@@ -268,7 +311,7 @@ a.button {
 /*    padding-top: 1em;*/
 	position: relative;
 /*	margin-top: -30%;*/
-	margin-left: 60%
+	margin-left: 55%
 }
 #cel
 {
@@ -352,7 +395,8 @@ a.button {
     color: #fe7f00;
     font-size: 1em;
     font-weight: 400;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
 }
 
 #contact error {
@@ -365,7 +409,8 @@ a.button {
     opacity: 0;
     transition-property: opacity;
     transition-duration: .3s;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
 }
 
 #contact form input.error,#contact form select.error,#contact form textarea.error {
@@ -430,20 +475,23 @@ a.button {
 	margin-top: -50%;
 	margin-left: 48%
 }
- 	div h1
+ 	div.bobo h1
  	{
 	height: 1em;
 	color: #fe7f00;
 /*	background-color: #eee;*/
 	text-align: left;
     vertical-align:middle;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
     font-size: 4em;
+    line-height: 1.15em
 	}
 		div.batton
 	{
     margin-top: 2.4em;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
 	}
 
 	a.button {
@@ -459,7 +507,7 @@ a.button {
 /*    padding-top: 1em;*/
 	position: relative;
 /*	margin-top: -30%;*/
-	margin-left: 55%
+	margin-left: 48%
 
 }
 #cel
@@ -624,7 +672,8 @@ a.button {
 		div.batton
 	{
     margin-top: 2.4em;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
 	}
 
 	a.button {
@@ -638,7 +687,7 @@ a.button {
     padding: 0.5em 1.8em;
     cursor: pointer;
 	position: relative;
-	margin-left: 55%;
+	margin-left: 48%;
 	}
 
 		.szary2
@@ -722,7 +771,8 @@ a.button {
     color: #fe7f00;
     font-size: 1em;
     font-weight: 400;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
 }
 
 #contact error {
@@ -795,7 +845,7 @@ a.button {
 	}
 	a.button 
 	{
-	margin-left: 48%;
+	margin-left: 40%;
 	}
 
 	.flex-container-portfolio
@@ -944,7 +994,8 @@ a.button {
 	font-size: 1.2em;
 	text-align: center;
 	color: #fe7f00;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
 	margin-top: 0.5em;
 	margin-bottom: -50%;
 	z-index: 2;
@@ -967,8 +1018,10 @@ a.button {
     text-decoration: none;
     font-size: 1.2em;
     padding: 0.75em 1.7em;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
     margin-left: 0;
+    display: none;
    	}
 
 	div.batton2
@@ -990,7 +1043,8 @@ a.button {
     text-decoration: none;
     font-size: 1.2em;
     padding: 0.75em 1.7em;
-    font-family: 'Rajdhani semibold', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
     margin-left: 0;
    	}
 
