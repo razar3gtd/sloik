@@ -220,13 +220,43 @@ div.flex-container
 	margin-left: 50px;
 }
 
+div.projekt:nth-child(n+13)
+	{
+	  display: none;
+	}
+
 .projekt
 {
 	background-color: #676767;
 	height: 12em;
 	width: 24.5%;
+	display: none;
 	margin: 0.1rem;
+
 }
+
+div.batton3
+	{
+	margin-top: 2%;
+	display: block;
+/*    margin: 4px 2px;*/
+    cursor: pointer;
+    justify-content: center;
+    z-index: 1;
+        background-color: #fe7f00;
+    border-radius: 0.5em;
+    color: white;
+/*    padding: 1em 3em;*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.75em 1.7em;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    margin-left: 35%;
+    margin-right: 35%;
+    }
+
 
 .flex-container-Kontakt
 {
@@ -860,6 +890,12 @@ a.button {
 	flex-wrap:wrap;
 }
 
+div.projekt:nth-child(n+10)
+	{
+	  display: none;
+	}
+
+
 .projekt
 {
 	background-color: #676767;
@@ -902,6 +938,12 @@ a.button {
 	flex-wrap:wrap;
 }
 
+
+div.projekt:nth-child(n+7)
+	{
+	  display: none;
+	}
+
 .projekt
 {
 	background-color: #676767;
@@ -914,7 +956,7 @@ a.button {
 {
 	display: flex;
 	height: 29em;
-/*	width: (50% - 15px);*/
+/*	width: (50% - 15px);
 	width: 50%;
 /*	background-color: blue;*/
 	margin-left: 20px;
@@ -1047,6 +1089,9 @@ a.button {
     font-weight: 600;
     margin-left: 0;
    	}
+
+
+
 
     div.flex-container
 {
@@ -1223,12 +1268,19 @@ div#jeden
 	flex-wrap:wrap;
 }
 
+
+/*div.projekt:nth-child(n+6)
+	{
+	  display: none;
+	}
+*/
 .projekt
 {
 	background-color: #676767;
 	height: 9em;
 	width: 100%;
 	margin: 0.1rem;
+/*	display: none;*/
 }
 
 
