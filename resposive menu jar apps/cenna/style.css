@@ -61,7 +61,8 @@ header nav ul li a
 	padding-top: 0.5em;
 	display:block;
 	color: #000;
-	font-family: 'Rajdhani semibold', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 600;
 	font-size: 1.3em;
 	color: #676767;
 }
@@ -89,21 +90,24 @@ header nav ul li a.active div
 
 h1
 {
-  font-family: 'Rajdhani semibold', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
 }
 h2
 {
-  font-family: 'Rajdhani semibold', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
 
 }
 p
 {
-  font-family: 'Rajdhani semibold', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
 }
 .otwarcieh1
 {
 	color:#676767;
-	font-size: 2em;
+	font-size: 4.5vw;
 	margin-top: -0.5em;
 	text-align: center;
 }
@@ -127,6 +131,12 @@ p
 {
 /*	position: absolute; */
 	border-bottom: 0.1em solid #fe7f00;
+}
+
+
+
+img{
+	 width: 85%;
 }
 
 /*.szary2
@@ -730,4 +740,96 @@ margin-top: 10%;
 	}
 	
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+
+
+	.grid-container {
+		padding: 0;
+		grid-template-rows: 3em 3em 13em;
+	}
+	div.otwarcie {
+		padding: 0;
+	}
+	.otwarcieh1
+{
+	color:#676767;
+	font-size: 5.2vw;
+    margin-top: 1%;
+    margin-bottom: 0;
+	text-align: center;
+}
+
+.potrzebah1
+{
+	color:#676767;
+	font-size: 4.2vw;
+	margin-top: -0.3em;
+	text-align: center;
+}
+
+.opis1
+{
+	font-size: 3.2vw;
+	margin-top: 0;
+}
+
+div.item3 {
+		padding: 0;
+}
+
+div.item5 {
+		padding: 0;
+}
+
+div.item7 {
+		padding: 0;
+}
+
+.stronah1 {
+	 font-size: 6.2vw;
+}
+
+.grid-container-graf-active {
+	 grid-template-rows: 3em 13em 3em 13em 13em 
+}
+
+.grid-container-strony-active {
+	grid-template-rows: 3em 13em;
+}
+
+.grid-container-aplikacje-active {
+	grid-template-rows: 3em 13em 3em 8em 8em;
+}
+
+.opis2 {
+	font-size: 3.2vw;
+	margin-top: 0;
 }
