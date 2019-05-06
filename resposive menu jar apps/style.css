@@ -679,6 +679,10 @@ a.button {
     opacity: 1
 }
 
+div.flex-container img {
+	width: 60%;
+}
+
 
 
 
@@ -1220,7 +1224,7 @@ div#jeden
 
 
 }
-@media (max-width: 450px)
+@media (max-width: 599px)
 {
 	div.batton2
 	{
@@ -1252,7 +1256,7 @@ div#jeden
 .text-about
 {
 	margin-left: 0;
-	margin-top: 0;
+	margin: 0;
 	font-size: 1.3em;
 }
 
@@ -1267,6 +1271,14 @@ div#jeden
 	margin-right: 20px;
 	flex-wrap:wrap;
 }
+
+
+.opisoferta
+{
+	margin-right: 0em;
+	margin-left: 0em;
+}
+
 
 
 /*div.projekt:nth-child(n+6)
@@ -1286,7 +1298,7 @@ div#jeden
 
 
 #contact form input,#contact form label,#contact form select,#contact form textarea {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 300;
     color: #5d616294;
     font-family: 'Rajdhani', sans-serif;
@@ -1302,7 +1314,7 @@ div#jeden
     -moz-appearance: none;
     appearance: none;
     width: 100%;
-    margin-bottom: 1.3em;
+    margin-bottom: 0.8em;
     outline: 0
 }
 
@@ -1363,21 +1375,54 @@ div#jeden
 }
 
 
+#jeden div.flex-container img {
+	width: 60%;
+}
+
+h1.szary2 {
+	margin: 0;
+}
+
+
+div.stopka {
+	background-color: #676767;
+	width: 100%;
+	height: 9em;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.napis_kontakt_w_stopce {
+	color: white;
+	font-family:'Rajdhani', sans-serif;
+	font-weight: 900;
+/*	font-size: 1.3em;*/
+	
+}
+
+
+h4.informacje_kontaktowe {
+	color: white;
+	font-family:'Rajdhani', sans-serif;
+	font-weight: 400;
+	margin-bottom: 0.2em;
+    margin-top: 0.2em;
+}
+
+
+.prawa_autorskie {
+	color: white;
+	font-family:'Rajdhani', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
