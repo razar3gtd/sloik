@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="201px" height="177.123px" viewBox="0 0 201 177.123" enable-background="new 0 0 201 177.123" xml:space="preserve">
-<path fill="none" stroke="#FA7D00" stroke-width="6.8031" stroke-linecap="round" stroke-miterlimit="10" d="M126.408,123.877
-	c0,7.587-5.885,13.736-13.137,13.736H89.19c-7.253,0-13.133-6.149-13.133-13.736V59.224c0-7.582,5.879-13.729,13.133-13.729h24.082
-	c7.252,0,13.137,6.147,13.137,13.729V123.877L126.408,123.877z"/>
-<line fill="none" stroke="#FA7D00" stroke-width="6.8031" stroke-linecap="round" stroke-miterlimit="10" x1="76.058" y1="66.661" x2="126.408" y2="66.661"/>
-<line fill="none" stroke="#FA7D00" stroke-width="6.8031" stroke-linecap="round" stroke-miterlimit="10" x1="76.058" y1="115.3" x2="126.408" y2="115.3"/>
+<path fill="#FA7D00" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" d="M110.262,54.459H92.201
+	c-6.838,0-12.401,5.764-12.401,12.848v48.488c0,7.087,5.563,12.853,12.401,12.853h18.061c6.84,0,12.404-5.765,12.404-12.852V67.307
+	C122.666,60.222,117.104,54.459,110.262,54.459z M84.902,75.436h32.663v31.375H84.902V75.436z M92.201,59.561h18.061
+	c4.027,0,7.303,3.475,7.303,7.746v3.027H84.902v-3.027C84.902,63.036,88.177,59.561,92.201,59.561z M110.262,123.547H92.201
+	c-4.025,0-7.299-3.478-7.299-7.751v-3.882h32.663v3.882C117.564,120.069,114.288,123.547,110.262,123.547z"/>
 </svg>
