@@ -281,6 +281,261 @@ button  {
    	}
 
 
+/*div.flex-container-Footer {
+	display: flex;
+}
+
+
+.button-kontakt {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 3em;
+}
+
+.informacje_kontaktowe.telefon {
+	margin-top: -3em;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*STOPKA*/
+
+
+.flex-container-footer {
+    display: flex;
+    flex-direction: row 
+
+    justify-content: center;
+    font-family:'Rajdhani', sans-serif;
+}
+
+
+.Menu-Footer 
+{
+
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+
+.Menu-Footer h4
+{
+    font-size: 1.1em;
+    padding-left: 2.2em;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.Menu-Footer ul li
+{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 0.3em;
+    color: #000;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    cursor: pointer;
+} 
+
+.Menu-Footer ul li a
+{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+}
+
+
+
+.kontakt-Footer {
+
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+}
+
+
+.kontakt-Footer h4
+{
+    font-size: 1.1em;
+    padding-left: 0.5em;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 500;
+}
+
+
+.kontakt-Footer ul li
+{
+    list-style: none;
+    text-decoration: none;
+
+    margin-left: -2.2em;
+    color: #000;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    cursor: pointer;
+    color: white;
+    line-height: 2.2em;
+} 
+
+.kontakt-Footer ul li a
+{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+}
+
+
+
+.kontakt-Footer ul li:first-child:before
+{
+    content:'';
+    width: 1.7em;
+    height: 1.7em;
+    background-color: white;
+    display: inline-block;
+    background: transparent url('icons/tel.svg');
+    background-size: 2.2em 2.4em;
+    margin-right: 0.3em;
+    margin-bottom: -0.3em;
+}
+
+.kontakt-Footer ul li:last-child:before
+{
+    content:'';
+    width: 1.7em;
+    height: 1.7em;
+    background-color: white;
+    display: inline-block;
+    background: transparent url('icons/mail.svg');
+    background-size: 2.2em 2.4em;
+    margin-right: 0.3em;
+    margin-bottom: -0.3em;
+}
+
+
+
+.Social-Media {
+
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+
+.Social-Media h4
+{
+    font-size: 1.1em;
+    padding-left: 2.2em;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.Social-Media p
+{
+    margin-top: 0;
+    padding-left: 2.2em;
+    color: white;
+    font-weight: 300;
+}
+
+
+.Social-Media div.socialmediaicons img 
+{
+    padding-left: 1.5em;
+    width: 10em;
+    height: auto;
+}
+
+
+.footer-button {
+
+    display: flex;
+    width: 23%;
+}
+
+
+
+div.stopka {
+    background-color: #676767;
+    width: 100%;
+    height: 18em;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+
+div.stopka button {
+    background-color: #fe7f00;
+    border: none;
+    border-radius: 0.2em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.9em 2.8em;
+    cursor: pointer;
+    position: relative;
+    margin-left: 28%;
+
+    margin-top: 13%;
+}
+
+
+.prawa_autorskie 
+{
+    text-align: center;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: -1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 @media (min-width: 1450px)
 {
 	div.bobo h1
@@ -686,7 +941,40 @@ div.flex-container img {
 
 
 
+/*STOPKA*/
 
+
+
+div.stopka button {
+    border-radius: 0.2em;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.4em 1.5em;
+    cursor: pointer;
+    position: relative;
+    margin-left: 0;
+
+    margin-top: 13%;
+}
+
+.Menu-Footer {
+    width: 24%;
+}
+
+.kontakt-Footer {
+    width: 25%;
+}
+
+
+.Social-Media {
+    width: 24%;
+}
+
+
+
+div.button-kontakt {
+	margin-left: 25%;
+}
 
 
 
@@ -852,6 +1140,9 @@ div.flex-container img {
 
 
 
+div.button-kontakt {
+	margin-left: 10%;
+}
 
 
 
@@ -910,7 +1201,35 @@ div.projekt:nth-child(n+10)
 
 
 
+
+
+div.button-kontakt {
+	margin-left: 0;
 }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 750px) /*750*//*991*/
 {
@@ -1209,13 +1528,50 @@ div#jeden
 }
 
 
+.Menu-Footer {
+    display: none;
+}
+
+
+.kontakt-Footer {
+    width: 30%;
+}
+
+
+.Social-Media {
+	width: 30%;
+}
+
+
+.footer-button {
+   justify-content: flex-end;
+    width: 30%;
+}
 
 
 
+div.stopka {
+    height: 15em;
+}
 
 
 
+.flex-container-footer {
+    height: 13em;
+}
 
+
+.divprawaautor {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+
+.prawa_autorskie {
+    display: flex;
+    align-self: flex-end;
+}
 
 
 
@@ -1384,38 +1740,29 @@ h1.szary2 {
 }
 
 
+
+
+.kontakt-Footer {
+    width: 50%;
+}
+
+
+.Social-Media {
+	display: none;
+}
+
+
+.footer-button {
+    width: 40%;
+}
+
+.flex-container-footer {
+    height: 11em;
+}
+
+
 div.stopka {
-	background-color: #676767;
-	width: 100%;
-	height: 9em;
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 20px;
-}
-
-.napis_kontakt_w_stopce {
-	color: white;
-	font-family:'Rajdhani', sans-serif;
-	font-weight: 900;
-/*	font-size: 1.3em;*/
-	
-}
-
-
-h4.informacje_kontaktowe {
-	color: white;
-	font-family:'Rajdhani', sans-serif;
-	font-weight: 400;
-	margin-bottom: 0.2em;
-    margin-top: 0.2em;
-}
-
-
-.prawa_autorskie {
-	color: white;
-	font-family:'Rajdhani', sans-serif;
-	font-weight: 300;
-	font-size: 1em;
+    height: 13em;
 }
 
 
@@ -1425,33 +1772,28 @@ h4.informacje_kontaktowe {
 }
 
 
-
-
-}
-
-/*nav
-{	
-	width: 100%;
-	background: white;
-}
-ul
+@media (max-width: 475px) 
 {
-	width: 80%;
-	margin: 0 auto;
-	padding: 0;
+
+
+.kontakt-Footer {
+    width: 80%;
 }
-ul li
-{
-	list-style: none;
-	display: inline-block;
-	padding: 20px;
+
+
+.footer-button {
+    display: none;
 }
-ul li:hover
-{
-	background: #fe7f00;
+
+.divprawaautor {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-start;
+        padding-left: 0.5em;
 }
-ul li a
-{
-	color: black;
-	text-decoration: none;
-}*/
+
+
+
+
+
+}
